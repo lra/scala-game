@@ -1,0 +1,7 @@
+A simple game to try Scala
+
+The game will have 4 classes:
+ - Player
+ - Enemy
+ - Boss
+ - Treasure

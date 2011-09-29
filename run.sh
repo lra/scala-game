@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-scala Main
+scala main.scala

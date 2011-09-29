@@ -37,6 +37,4 @@ Game rules:
  - Falling, being attacked or being slapped removes one life
  - The player has 2 tries to enter the castle, or he loose one life and restarts
 
-How to use it:
- 1. launch ./build.sh
- 2. launch ./run.sh
+To launch the game, launch the ./run.sh script

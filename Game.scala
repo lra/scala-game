@@ -1,3 +1,5 @@
+package org.glop.scalagame
+
 class Game {
     // Do we get chance?
     // Returns the odd of a successful try for n chance out of m
@@ -8,4 +10,10 @@ class Game {
     }
 
     var gameOver = false
+    
+    def launch = {
+        val p = new Player
+        p.name = "Prince"
+        p.jump
+    }
 }

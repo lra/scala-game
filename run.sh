@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-scala main.scala
+scala -classpath . org.glop.scalagame.Main

@@ -1,5 +1,8 @@
+package org.glop.scalagame
+
 object Main {
     def main(args: Array[String]) {
-        println("First test")
+        val game = new Game
+        game.launch
     }
 }

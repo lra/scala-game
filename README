@@ -36,3 +36,7 @@ Game rules:
  - The player starts with 10 lives
  - Falling, being attacked or being slapped removes one life
  - The player has 2 tries to enter the castle, or he loose one life and restarts
+
+How to use it:
+ 1. launch ./build.sh
+ 2. launch ./run.sh

@@ -5,6 +5,8 @@ class Player extends Character {
     var lives = 10
     var gold = 0
     
+    def isAlive = lives > 0
+    
     def jump = {
         println(name + " jumped")
     }
@@ -47,4 +49,6 @@ class Player extends Character {
     def die = {
         println(name + " died!")
     }
+    
+    def fall = lives -= 1
 }

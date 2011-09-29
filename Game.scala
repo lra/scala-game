@@ -11,9 +11,21 @@ class Game {
 
     var gameOver = false
     
+    // Characters
+    val prince = new Player
+    val swordman = new Enemy
+    val boss = new Boss
+    val princess = new Princess
+    
+    def setup = {
+        prince.name = "Prince"
+        swordman.name = "Swordman"
+        boss.name = "Jaffar"
+        princess.name = "Farah"
+    }
+    
     def launch = {
-        val p = new Player
-        p.name = "Prince"
-        p.jump
+        setup
+        prince.jump
     }
 }

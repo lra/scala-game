@@ -1,1 +1,1 @@
-class Princess
+class Princess extends Character

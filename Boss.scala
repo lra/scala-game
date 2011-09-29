@@ -1,1 +1,1 @@
-class Boss
+class Boss extends Character

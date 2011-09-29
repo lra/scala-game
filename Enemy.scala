@@ -1,1 +1,1 @@
-class Enemy
+class Enemy extends Character

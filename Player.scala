@@ -1,1 +1,1 @@
-class Player
+class Player extends Character

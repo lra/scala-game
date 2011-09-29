@@ -1,7 +1,38 @@
-A simple game to try Scala
+A simple game to try Scala.
+
+The goal of the game is to deliver the princess.
 
 The game will have 4 classes:
+
  - Player
  - Enemy
  - Boss
- - Treasure
+ - Princess
+
+Some rules:
+
+ - Enemies can only beat the player
+ - Bosses can beat enemies and the player
+ - The princesses can either give kisses of slaps
+
+What the player will be able to do:
+
+ - He has a quantity of lives and gold
+ - He can win and loose gold
+ - He can only loose lives
+ - He can beat enemies and bosses
+ - He can give kisses to princesses
+ - He can enter a castle
+ - He can die
+
+Game rules:
+
+ - The player has one in five chance to fall during the first jump
+ - The player has one in three chance to fall in the second hole
+ - The player has one in four chance to be killed by the first enemy
+ - The player has three in ten chance to enter the castle without alerting guardians
+ - The player has one in two chance to beat the boss
+ - The player has one in three chance to be slapped by the princess
+ - The player starts with 10 lives
+ - Falling, being attacked or being slapped removes one life
+ - The player has 2 tries to enter the castle, or he loose one life and restarts

@@ -1,7 +1,6 @@
 package org.glop.scalagame
 
-class Player extends Character {
-    var name = "Unknown"
+class Player (val name:String) {
     var lives = 10
     var gold = 0
     

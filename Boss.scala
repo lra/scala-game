@@ -1,8 +1,6 @@
 package org.glop.scalagame
 
-class Boss extends Character {
-    var name = "Unknown"
-    
+class Boss (val name:String) {
     def beat(e:Enemy) = {
         println(name + " beat " + e.name)
     }

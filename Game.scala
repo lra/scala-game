@@ -12,21 +12,12 @@ class Game {
     var gameOver = false
     
     // Characters
-    val prince = new Player
-    val swordman = new Enemy
-    val boss = new Boss
-    val princess = new Princess
-    
-    def setup = {
-        prince.name = "Prince"
-        swordman.name = "Swordman"
-        boss.name = "Jaffar"
-        princess.name = "Farah"
-    }
-    
+    val prince = new Player("Prince")
+    val swordman = new Enemy("Swordman")
+    val boss = new Boss("Jaffar")
+    val princess = new Princess("Farah")
+
     def launch = {
-        setup
-        
         while (prince.isAlive || !gameOver) {
             println("_" * 50)
             println("New game")

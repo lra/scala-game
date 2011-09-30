@@ -1,8 +1,6 @@
 package org.glop.scalagame
 
-class Princess extends Character {
-    var name = "Unknown"
-    
+class Princess (val name:String) {
     def kiss(p:Player) = {
         println(name + " gave a kiss to " + p.name)
     }

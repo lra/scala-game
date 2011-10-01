@@ -37,8 +37,4 @@ Game rules:
  - Falling, being attacked or being slapped removes one life
  - The player has 2 tries to enter the castle, or he loose one life and restarts
 
-To launch the game:
- 1. Launch the ./build.sh script
- 2. Launch the ./run.sh script
-
-You can clean the bytcode by launching the ./clean.sh script
+To launch the game: sbt run
